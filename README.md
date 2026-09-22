@@ -1,4 +1,4 @@
-# 🧭 DataPilot AI
+# DataPilot AI
 
 **Your AI Data Analyst & Business Intelligence Pilot**
 
@@ -12,7 +12,7 @@ Streamlit, Pandas, NumPy, and Plotly**.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Most beginners and small business users have data (in CSV/Excel form) but
 lack the skills to manually clean it, calculate statistics, build charts,
@@ -26,7 +26,7 @@ with no external API key required.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Allow users to upload a dataset (CSV/XLSX/XLS) without any technical setup.
 - Automatically profile the dataset (rows, columns, data types, missing data).
@@ -39,7 +39,7 @@ with no external API key required.
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -55,7 +55,7 @@ with no external API key required.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.9+**
 - **Streamlit** – web app framework / UI
@@ -69,7 +69,7 @@ on local, rule-based Pandas logic.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DataPilot_AI/
@@ -116,7 +116,7 @@ DataPilot_AI/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 From inside the `DataPilot_AI` folder, run:
 
@@ -129,7 +129,7 @@ This will open DataPilot AI automatically in your web browser
 
 ---
 
-## 📤 How to Upload Data
+## How to Upload Data
 
 1. Once the app opens, use the **sidebar** on the left ("Upload Your Dataset").
 2. Click **Browse files** and select a `.csv`, `.xlsx`, or `.xls` file.
@@ -142,7 +142,7 @@ error message instead of crashing.
 
 ---
 
-## 📊 How the Dashboard Works
+##  How the Dashboard Works
 
 The dashboard is organized into 7 tabs:
 
@@ -166,7 +166,7 @@ your **original** data or the **cleaned** version.
 
 ---
 
-## 💬 How "Ask DataPilot" Works
+##  How "Ask DataPilot" Works
 
 Ask DataPilot uses **rule-based keyword matching** combined with column-name
 detection to understand simple questions and run the matching Pandas
@@ -188,7 +188,7 @@ example questions instead of crashing.
 
 ---
 
-## ✅ Testing Checklist
+## Testing Checklist
 
 Use `sample_data.csv` and your own files to verify:
 
@@ -206,7 +206,7 @@ Use `sample_data.csv` and your own files to verify:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 DataPilot AI is intentionally built so these can be added without restructuring
 the project:
